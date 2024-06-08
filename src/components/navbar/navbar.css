@@ -1,0 +1,48 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 6px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6347; /* Tomato color on hover */
+  }
+  
+  .active-link {
+    color: red;
+  }
+  @media(max-width:516px) {
+    .nav-link{
+      font-size: 1.2rem;
+    }
+  }
+  @media(max-width:350px) {
+    .nav-link{
+      font-size: 1.2rem;
+    }
+    .nav-links{
+    gap: 0;
+    }
+  }
