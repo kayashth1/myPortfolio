@@ -1,4 +1,4 @@
-/* src/ProjectSection.css */
+/* Add this to project.css */
 .project-section {
     display: flex;
     justify-content: center;
@@ -8,12 +8,10 @@
 .project {
     display: flex;
     align-items: center;
-    /* flex-wrap: wrap; */
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   /* height: 60vh; */
     width: 100%;
     padding: 30px;
     gap: 77px;
@@ -21,7 +19,6 @@
 
 .project-details {
     padding: 20px;
-    /* flex: 1; */
     min-width: 500px;
 }
 
@@ -32,14 +29,17 @@
     font-weight: 700;
     margin: 2rem 0 0;
 }
+
 .project-details h3 {
     color: #2a324c;
     font-family: sans-serif;
     font-size: 1rem;
     font-weight: 700;
+    width: 150px;
     margin: 2rem 0 0;
 }
-.project-details p{
+
+.project-details p {
     color: #364163;
     font-size: 1.5rem;
     font-weight: 400;
@@ -50,6 +50,9 @@
 
 .project-buttons {
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
 }
 
 .button {
@@ -77,38 +80,42 @@
     margin-right: 8px;
 }
 
-/* .project-image {
-    flex: 1;
-} */
-
 .project-image {
     width: 50%;
     height: auto;
     display: block;
     min-width: 450px;
-
 }
 
-@media(max-width:1178px){
-    .project{
+@media (max-width: 1178px) {
+    .project {
         flex-wrap: wrap;
         justify-content: center;
-
     }
-  
+}
 
-}
-@media(max-width:650px){
+@media (max-width: 400px) {
+    .project-details h2 {
+        font-size: 2.4rem;
+    }
 
-.project-section{
-    padding: 0;
+    .project-details p {
+        font-size: 1.3rem;
+    }
+}
 
+@media (max-width: 650px) {
+    .project-section {
+        padding: 0;
+    }
+
+    .project-details {
+        min-width: 0;
+        width: auto;
+    }
+
+    .project-image {
+        min-width: 250px;
+    }
 }
-.project-details{
-    min-width: 0;
-    width: auto;
-}
-.project-image{
-    min-width: 0;
-}
-}
+

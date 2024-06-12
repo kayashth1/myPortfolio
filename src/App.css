@@ -1,0 +1,37 @@
+.App {
+    display: flex;
+    margin: 0;
+    padding: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    
+  }
+  
+  .side-nav {
+    position: fixed;
+    width: 71px;
+    top: 0;
+    bottom: 0;
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 20px; */
+  }
+  
+  .content {
+    margin-left: 43px;
+    /* padding: 20px; */
+    /* flex-grow: 1; */
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  .section {
+    padding: 36px 0;
+  }
+ .nopd{
+  padding: 0;
+ }

@@ -37,3 +37,9 @@
   padding-bottom: 100px;
   color: white;
   }
+
+  @media(max-width:500px){
+    .title{
+      font-size: 3vw;
+    }
+  }

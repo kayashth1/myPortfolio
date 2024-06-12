@@ -11,7 +11,7 @@ const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
                 <div className="project-details">
                     <p style={{ fontSize: "1.7rem", fontWeight: "bold" }}>{no}</p>
                     <h2>{name}</h2>
-                    <h3>{profile}</h3>
+                    <h3><span style={{background: "#ffffad"}}>{profile}</span></h3>
                     <p>{content}</p>
                     <div className="project-buttons">
                         <a href={`https://github.com/kayashth1/${GitHub}`} className="button github-button" target="_blank" rel="noopener noreferrer">

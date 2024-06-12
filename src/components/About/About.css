@@ -6,6 +6,7 @@
 .abt-h {
   text-align: center;
   font-size: 2.5rem;
+  padding-bottom: 30px;
 }
 
 
@@ -170,16 +171,16 @@
 
 
 @media (max-width: 1024px) {
-  .abt-left,
+  /* .abt-left,
   .abt-right,
   .simple-left,
   .simple-right {
     width: 100%;
-  }
+  } */
 
-  .profile-img{
+  /* .profile-img{
     padding: 0 30px;
-  }
+  } */
  
  
 
@@ -196,6 +197,7 @@
   }
 
 }
+
 @media (max-width: 373px) {
   .about-body {
     padding: 0;

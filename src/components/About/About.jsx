@@ -10,7 +10,7 @@ function About() {
   return (
     <>
       <div className='about-body'>
-        <h2 className='abt-h'>About</h2>
+        {/* <h2 className='abt-h'>About</h2> */}
         <div className='about-section'>
           <div className='abt-left'>
             <div className='abt-left-up'>

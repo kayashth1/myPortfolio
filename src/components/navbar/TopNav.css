@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 96%;
+    margin-left: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    color: #333;
+    opacity: .9;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #109d6b; 
+  }
+  
+  .download-resume {
+    display: flex;
+    align-items: center;
+  }
+  
+  .resume-button {
+    padding: 1.1rem 2.0rem;
+    background-color: transparent;
+    color: #109d6b;
+    border: 1px solid black;
+    margin: 0 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .resume-button:hover {
+      background-color: #109d6b; 
+      font-weight: normal;
+      color:black ;
+      transform: scale(1.1);
+  }
+  

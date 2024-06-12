@@ -1,21 +1,42 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../navbar/navbar.css'; 
+// import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import '../navbar/navbar.css';
 
-function Navbar() {
+const Navbar = ({ activeSection, handleSetActive }) => {
   return (
-    <nav className="navbar">
-      {/* <div className="logo">
-        logo
-      </div> */}
-      <div className="nav-links">
-      <a className="nav-link" activeClassName="active-link" to="/contact">Contact</a>
-        <a className="nav-link" activeClassName="active-link" to="/about">About</a>
-        <a className="nav-link" activeClassName="active-link" to="/project">Project</a>
-        <a className="nav-link" activeClassName="active-link" to="/skill">Skill</a>
-      </div>
+    <nav className="side-nav">
+      <ul>
+        <li className={activeSection === 'home' ? 'active' : ''}>
+          <ScrollLink to="home" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
+            Home
+          </ScrollLink>
+        </li>
+        <li className={activeSection === 'about' ? 'active' : ''}>
+          <ScrollLink to="about" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
+            About
+          </ScrollLink>
+        </li>
+        <li className={activeSection === 'skills' ? 'active' : ''}>
+          <ScrollLink to="skills" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
+            Skill
+          </ScrollLink>
+        </li>
+        <li className={activeSection === 'projects' ? 'active' : ''}>
+          <ScrollLink to="projects" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
+            Projects
+          </ScrollLink>
+        </li>
+        <li className={activeSection === 'footer' ? 'active' : ''}>
+          <ScrollLink to="footer" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
+            Contacts
+          </ScrollLink>
+        </li>
+      </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
+
