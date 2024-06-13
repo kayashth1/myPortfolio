@@ -16,11 +16,11 @@ function About() {
             <div className='abt-left-up'>
               <img src={dp} alt="Profile" className='profile-img' />
               <ul>
-                <li><b>Name:</b> Yash Shrivastava</li>
-                <li><b>Profile:</b> Full Stack Developer</li>
-                <li><b>Education:</b> Bachelor of Technology,</li>
+                <li><b className='h-tag'>Name:</b> Yash Shrivastava</li>
+                <li><b className='h-tag'>Profile:</b> Full Stack Developer</li>
+                <li><b className='h-tag'>Education:</b> Bachelor of Technology,</li>
                 <li>IIT(ISM) Dhanbad <span style={{background:"#ffffad"}}>(In Progress)</span></li>
-                <li><b>Email:</b> 22je1101@iitism.ac.in</li>
+                <li className='h-tag'><b>Email:</b> 22je1101@iitism.ac.in</li>
               </ul>
             </div>
             <div className='abt-left-down'>
@@ -41,28 +41,30 @@ function About() {
             <img src={karate} alt="Karate"/>
             <div class="card-details">
                 <h3>Karate</h3>
-                <p>Karate is a martial art developed in the Ryukyu Kingdom. It is primarily a striking art using punching, kicking, knee strikes, and elbow strikes.</p>
+                <p>I am an active member of the Karate Club, the official martial arts club of IIT (ISM) Dhanbad, and I currently hold a green belt.</p>
             </div>
         </div>
         <div class="icon-card" id="videography">
             <img src={video}  alt="Videography"/>
             <div class="card-details">
                 <h3>Videography</h3>
-                <p>Videography is the process of capturing moving images on electronic media such as video tape, direct to disk recording, or solid state storage.</p>
+                <p>I love to Capture Moments.
+                  Can't reveal more ha ha ha!
+                </p>
             </div>
         </div>
         <div class="icon-card" id="music">
             <img src={music}  alt="Music"/>
             <div class="card-details">
                 <h3>Music</h3>
-                <p>Music is the art of arranging sounds in time to produce a composition through the elements of melody, harmony, rhythm, and timbre.</p>
+                <p>Music is Love.</p>
             </div>
         </div>
         <div class="icon-card" id="social-service">
             <img src={ngo} alt="Social Service"/>
             <div class="card-details">
                 <h3>Social Service</h3>
-                <p>Social service is a service provided to help people in the community, especially those who are disadvantaged or need assistance.</p>
+                <p>I am part of an NGO named Kartavya, where we teach underprivileged children and work towards transforming their community.</p>
             </div>
         </div>
     </div>
@@ -71,7 +73,8 @@ function About() {
           </div>
           <div className='abt-right'>
             <h2>So! Who Am I?</h2>
-            <p>Lorem ipsum dolor sit amet contio fuga ex ullam blanditiis eos quis! Laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus eos voluptatibus. Nostrum assumenda voluptate ipsum quam rem iure, illum expedita facere cumque consequuntur molestias suscipit temporibus magni ipsa, alias vitae tempora necessitatibus nulla illo inventore? Quis eum fugiat doloremque labore, quae voluptas enim iste deserunt ratione dolorum impedit sapiente.</p>
+            <p>Greetings! I'm Yash Shrivastava from Kanpur, Uttar Pradesh. Currently, I am in my pre-final year of B.Tech at the esteemed IIT (ISM) Dhanbad. Over the past two years, I've embarked on an exciting journey in the realm of programming, with a primary focus on web development.
+In my free time, I indulge in music and social services. I am a driven, creative, and passionate individual dedicated to making a positive impact through technology. Additionally, I love solving problems, both in software and in social contexts, and strive to contribute meaningfully wherever I can.</p>
           </div>
         </div>
         

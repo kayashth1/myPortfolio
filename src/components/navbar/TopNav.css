@@ -34,13 +34,15 @@
   }
   
   .resume-button {
-    padding: 1.1rem 2.0rem;
+    padding: 1.0rem 1.7rem;
     background-color: transparent;
     color: #109d6b;
     border: 1px solid black;
     margin: 0 50px;
     border-radius: 5px;
+    text-decoration: none;
     font-size: 15px;
+    font-weight: 300;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     }

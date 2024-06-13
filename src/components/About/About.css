@@ -44,10 +44,13 @@
 .abt-left-up ul {
   list-style-type: none;
   padding-left: 84px;
-}
-
-.abt-left-up ul li {
+  }
+  
+  .abt-left-up ul li {
+  color: black;
   margin: 10px 0;
+  font-weight: 200;
+  opacity: 1;
   line-height: 26px;
   font-size: 1.2rem;
 }
@@ -67,12 +70,15 @@
 
 .abt-right h2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
+.h-tag{
+opacity: .8;
+}
 .abt-right p {
   font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     /* letter-spacing: .05rem; */
     line-height: 1.6;
     margin-bottom: 2rem;

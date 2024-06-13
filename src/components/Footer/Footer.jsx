@@ -8,9 +8,10 @@ function Footer() {
     <div className='footer-container'>
     <div className="contact-container">
       <h2>Contact</h2>
-      <p>Shoot me an email if you want to connect! You can also find me on <a className='s-l' href="">Linkedin</a>  or <a href="" className='s-l'>Instagram</a> if that's more your speed.</p>
+      <p>Shoot me an email if you want to connect! You can also find me on <a className='s-l' href='https://linkedin.com/in/kayashth1' target='_blank' rel='noopener noreferrer'>Linkedin</a>  or 
+      <a href="https://www.instagram.com/ka_yashth1/" className='s-l' target='_blank' rel='noopener noreferrer' >Instagram</a> if that's more your speed.</p>
       <a href="mailto:bob.ross@notreal.com" className="email-link">
-        <FaEnvelope className="icon" /> bob.ross@notreal.com
+        <FaEnvelope className="icon" /> yashprof2004@gmail.com
       </a>
     </div>
       

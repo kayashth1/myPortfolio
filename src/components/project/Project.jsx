@@ -17,7 +17,7 @@ const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
                         <a href={`https://github.com/kayashth1/${GitHub}`} className="button github-button" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} alt="GitHub" /> GitHub
                         </a>
-                        <a href={`https://your-live-project-url/${demo}`} className="button live-button" target="_blank" rel="noopener noreferrer">
+                        <a href={demo} className="button live-button" target="_blank" rel="noopener noreferrer">
                             <img src={liveIcon} alt="Live Project" /> Live Project
                         </a>
                     </div>

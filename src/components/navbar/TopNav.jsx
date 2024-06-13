@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaCode, FaWhatsapp } from 'react-icons/fa';
 import '../navbar/TopNav.css';
-
+import cv from '../../../src/my_CV.pdf'
 const TopNav = () => {
   return (
     <div className="navbar">
@@ -20,7 +20,7 @@ const TopNav = () => {
         </a>
       </div>
       <div className="download-resume">
-        <button className="resume-button">My resume</button>
+        <a className="resume-button" href={cv} target="_blank" rel="noopener noreferrer">My resume</a>
       </div>
     </div>
   );

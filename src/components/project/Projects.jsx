@@ -10,11 +10,11 @@ function Projects() {
         {
           "name": "Conference Website",
           "content": "Developed a comprehensive conference website for the International Conference on Petroleum, Hydrogen, and Decarbonization (ICPHD) 2024, enabling participants to access information and register for the event. The site includes a robust backend system for managing user registrations and event data, ensuring secure handling of participant information.",
-          "profile": "Frontend Project",
+          "profile": "Frontend Project (Team Project)",
           "no": 1,
           "image": cnfIMG,
           "GitHub": "",
-          "demo": "j"
+          "demo": "https://conference-website-nine.vercel.app/"
         },
         {
           "name": "iLaundry",

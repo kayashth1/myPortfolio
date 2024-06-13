@@ -12,9 +12,6 @@ function Home() {
         <span>Yash Shrivastav | Full Stack Web Developer</span>
      </div>
      </div>
-    
-        {/* <h1 className="name">I'M<br/>YASH<br/>SHRIVASTAVA</h1>
-        <p className="title">UX/UI DESIGNER & WEB DEVELOPER</p> */}
       </div>
       </div>
    

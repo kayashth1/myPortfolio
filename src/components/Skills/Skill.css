@@ -1,10 +1,10 @@
 .skills-section {
   display: flex;
-  /* justify-content: center; */
-  height: 63vh;
+  justify-content: center;
+  /* height: 63vh; */
   flex-direction: column;
   /* margin-top: 40px; */
-  background-color: #d5c874;
+  background-color: #d9cf8f;
   /* padding: 20px; */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@
     display: flex;
     /* justify-content: center; */
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 35px;
     /* padding: 32px;
     padding-top: 0; */
     /* width: 74%; */
@@ -36,8 +36,9 @@
   }
   
   .tech-logo {
-    max-width: 6vw;
-    min-width: 60px;
+    /* max-width: 6vw;
+    min-width: 60px; */
+    width: 70px;
   
   }
 
@@ -45,7 +46,12 @@
     font-size: 1.6rem;
     padding-bottom: 5px;
   }
-
+.skill-h h3{
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
   @media(max-width:720px){
     .skill-h{
       text-align: center;

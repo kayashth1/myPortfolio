@@ -10,7 +10,10 @@ import jqLogo from '../../images/jquery.png';
 import apilogo from '../../images/api.png';
 import expressLogo from '../../images/express.png';
 import mongoLogo from '../../images/monogodb.png';
+import cpp from '../../images/cpp.png';
 import postmanLogo from '../../images/postman.png';
+import bootstrap from '../../images/bootstrap.png';
+import firebase from '../../images/firebase.png';
 
 function Skill() {
   return (
@@ -20,7 +23,7 @@ function Skill() {
     
 
       <div className='skill-h'>
-<h3>Technologies I have !</h3>
+<h3>I have wroked with !</h3>
 </div>
         <div className='tech-images'>
        
@@ -34,6 +37,10 @@ function Skill() {
           <img src={mongoLogo} alt="MongoDB" className='tech-logo' />
           <img src={expressLogo} alt="MongoDB" className='tech-logo' />
           <img src={postmanLogo} alt="MongoDB" className='tech-logo' />
+          <img src={cpp} alt="MongoDB" className='tech-logo' />
+          <img src={bootstrap} alt="MongoDB" className='tech-logo' />
+          <img src={firebase} alt="MongoDB" className='tech-logo' />
+          <img src={githubLogo} alt="MongoDB" className='tech-logo' />
         </div>
       </div>
       </div>
