@@ -1,29 +1,3 @@
-// import React from 'react'
-// import Navbar from "./components/navbar/Navbar"
-// import Home from "./components/Home/Home"
-// import About from "./components/About/About"
-// import Skill from './components/Skills/Skill'
-// import Footer from './components/Footer/Footer'
-// import Projects from './components/project/Projects'
-// import './App.css'
-
-// function App() {
-
-//   return (
-//     <>
-  
-//      <Navbar/>
-//      <Home/>
-//      <About/>
-//      <Skill/>
-//      <Projects/>
-//      <Footer/>
-//     </>
-//   )
-// }
-
-// export default App
-
 
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink, Element, Events, scrollSpy } from 'react-scroll';

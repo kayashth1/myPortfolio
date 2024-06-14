@@ -18,11 +18,7 @@ const Navbar = ({ activeSection, handleSetActive }) => {
             About
           </ScrollLink>
         </li>
-        <li className={activeSection === 'skills' ? 'active' : ''}>
-          <ScrollLink to="skills" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
-            Skill
-          </ScrollLink>
-        </li>
+        
         <li className={activeSection === 'projects' ? 'active' : ''}>
           <ScrollLink to="projects" spy={true} smooth={true} duration={500} onSetActive={handleSetActive}>
             Projects
