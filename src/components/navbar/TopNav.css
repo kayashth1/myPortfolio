@@ -53,4 +53,35 @@
       color:black ;
       transform: scale(1.1);
   }
+
+  .hamburger{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 38px;
+    /* align-items: center; */
+    display: none;
+    
+  }
+  .line{
+    border: 2px solid black;
+    margin: 5px;
+  }
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
   
+  @media(max-width:481px){
+
+    .navbar{
+      margin: 0;
+      width: 100%;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    
+  }

@@ -35,3 +35,17 @@
  .nopd{
   padding: 0;
  }
+
+ @media(max-width:481px){
+  .side-nav{
+    display: none;
+
+  }
+  .content{
+    margin: 0;
+  }
+  .open{
+    display: block;
+    z-index: 2000;
+  }
+ }

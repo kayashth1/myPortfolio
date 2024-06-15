@@ -24,6 +24,8 @@
   align-items: center;
   padding: 20px;
   width: 50%;
+  background-color: white;
+  
 }
 
 .abt-left-up {
@@ -66,6 +68,7 @@
   flex: 2;
   padding: 20px;
   width: 50%;
+  background-color: white;
 }
 
 .abt-right h2 {

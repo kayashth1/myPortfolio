@@ -34,7 +34,9 @@ const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
                     </Reveal>
                 </div>
                 {/* <div className="project-image"> */}
+                {/* <Reveal> */}
                     <img className="project-image" src={image} alt="Project" />
+                    {/* </Reveal> */}
                 {/* </div> */}
             </div>
         </div>

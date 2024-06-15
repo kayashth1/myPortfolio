@@ -3,17 +3,19 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+   
 }
 
 .project {
     display: flex;
     align-items: center;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     width: 100%;
     padding: 30px;
+    
     gap: 77px;
 }
 
@@ -46,6 +48,7 @@
     letter-spacing: .05rem;
     line-height: 1.6;
     margin: .5rem 0 0;
+    background: white;
 }
 
 .project-buttons {

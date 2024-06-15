@@ -1,5 +1,9 @@
 .footer-container{
-    background-color: #181c2a;
+    /* background-color: #181c2a; */
+    background-color: #181C2A;
+  opacity: 1;
+  background-image: radial-gradient(#2c3349 1.25px, #181C2A 1.25px);
+  background-size: 25px 25px;
     padding: 82px;
     height: 100vh;
     display: flex;
@@ -25,7 +29,7 @@
   font-size: 6vw;
   font-weight: 900;
   font-family: "Rubik Mono One", monospace;
-  color: antiquewhite;
+  color: #FBEAEB;
 }
 
 .contact-container p {

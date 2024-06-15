@@ -1,10 +1,14 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaCode, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import '../navbar/TopNav.css';
-import cv from '../../../src/my_CV.pdf'
-const TopNav = () => {
+import cv from '../../../src/my_CV.pdf';
+
+const TopNav = ({ menuOpen, toggleMenu }) => {
   return (
     <div className="navbar">
+      <div className="navbar-toggle" onClick={toggleMenu}>
+        {menuOpen ? '✖' : '☰'}
+      </div>
       <div className="social-icons">
         <a href='https://github.com/kayashth1' target='_blank' rel='noopener noreferrer'>
           <FaGithub className='icon' />

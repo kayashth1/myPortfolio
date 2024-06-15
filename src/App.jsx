@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink, Element, Events, scrollSpy } from 'react-scroll';
 
@@ -13,6 +12,7 @@ import './App.css'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     Events.scrollEvent.register('begin', function () {
@@ -25,23 +25,45 @@ function App() {
 
     scrollSpy.update();
 
+    const handleBodyClick = (event) => {
+
+      if (menuOpen && !event.target.closest('.navbar')) {
+        setMenuOpen(false);
+      }
+    };
+
+
+    document.body.addEventListener('click', handleBodyClick);
+
     return () => {
       Events.scrollEvent.remove('begin');
       Events.scrollEvent.remove('end');
+      document.body.removeEventListener('click', handleBodyClick);
     };
-  }, []);
+  }, [menuOpen]);
 
   const handleSetActive = (to) => {
     setActiveSection(to);
+
+    setMenuOpen(false);
+  };
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
     <div className="App">
-     
-      <Navbar activeSection={activeSection} handleSetActive={handleSetActive} />
-            
+      <Navbar
+        activeSection={activeSection}
+        handleSetActive={handleSetActive}
+        menuOpen={menuOpen}
+        toggleMenu={toggleMenu}
+        className={`side-nav ${menuOpen ? 'open' : ''}`}
+      />
+        
       <div className="content">
-      <TopNav/>
+        <TopNav menuOpen={menuOpen} toggleMenu={toggleMenu} />
         <Element name="home" className="section nopd">
           <Home />
         </Element>
@@ -55,7 +77,7 @@ function App() {
           <Projects />
         </Element>
         <Element name="footer" className="section nopd">
-          <Footer/>
+          <Footer />
         </Element>
       </div>
     </div>

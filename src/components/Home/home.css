@@ -1,10 +1,15 @@
 /* Home Component Styles */
 .home-container{
   display: flex;
-  background-color: #FFBD59;
+  /* background-color: #FFBD59; */
   height: 100vh;
   justify-content: center;
   /* align-items: center; */
+  background-color: #181C2A;
+  opacity: 1;
+  background-image: radial-gradient(#2c3349 1.25px, #181C2A 1.25px);
+  background-size: 25px 25px;
+  
 }
 .home {
     display: flex;
@@ -26,7 +31,7 @@
   .title {
     font-size: 1.5rem;
     /* margin-top: -7rem; */
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
   }
   .portfolio {
@@ -35,7 +40,7 @@
   font-style: normal;
   font-size: 5vw;
   /* padding-bottom: 100px; */
-  color: white;
+  color: #FBEAEB;
   opacity: .9;
   }
 
