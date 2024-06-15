@@ -10,6 +10,7 @@ function Home() {
         <h1>PORTFOLIO</h1>
         <div className='title'>
         <span>Yash Shrivastav |</span> <span>Full Stack Web Developer</span> 
+       
      </div>
      </div>
       </div>

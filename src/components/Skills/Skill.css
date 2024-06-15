@@ -3,12 +3,9 @@
   justify-content: center;
   /* height: 63vh; */
   flex-direction: column;
- 
-
-
  background-color: #CADCFC;
  opacity: 1;
- background-image: radial-gradient(#536dc0 1.25px, #CADCFC 1.25px);
+ background-image: radial-gradient(#6474a9 1.25px, #CADCFC 1.25px);
  background-size: 25px 25px;
   /* padding: 20px; */
   border-radius: 10px;

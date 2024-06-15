@@ -23,7 +23,7 @@ function Skill() {
     
 
       <div className='skill-h'>
-<h3>I have wroked with !</h3>
+<h3>I have worked with !</h3>
 </div>
         <div className='tech-images'>
        

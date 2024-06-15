@@ -24,7 +24,7 @@ const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
                     </Reveal>
                     <Reveal>
                     <div className="project-buttons">
-                        <a href={`https://github.com/kayashth1/${GitHub}`} className="button github-button" target="_blank" rel="noopener noreferrer">
+                        <a href={GitHub} className="button github-button" target="_blank" rel="noopener noreferrer">
                             <img src={githubIcon} alt="GitHub" /> GitHub
                         </a>
                         <a href={demo} className="button live-button" target="_blank" rel="noopener noreferrer">

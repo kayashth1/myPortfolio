@@ -13,7 +13,7 @@ function Projects() {
           "profile": "Frontend Project (Team Project)",
           "no": 1,
           "image": cnfIMG,
-          "GitHub": "",
+          "GitHub": "https://github.com/SanyogDg/ICPHD-IIT-ISM.git",
           "demo": "https://conference-website-nine.vercel.app/"
         },
         {
@@ -22,7 +22,7 @@ function Projects() {
           "profile": "Full Stack Project",
           "no": 2,
           "image": lauIMG,
-          "GitHub": "iLaundry-.git",
+          "GitHub": "https://github.com/kayashth1/iLaundry-.git",
           "demo": "k"
         },
         {
@@ -31,7 +31,7 @@ function Projects() {
           "profile": "API Based Project",
           "no": 3,
           "image": newsIMG,
-          "GitHub": "iNews.git",
+          "GitHub": "https://github.com/kayashth1/iNews.git",
           "demo": "l"
         }
       ]
