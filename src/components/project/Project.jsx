@@ -5,7 +5,7 @@ import Reveal from '../Reveal';
 import liveIcon from '../../images/live.png';
 import projectImage from '../../images/cnf.png'; // This should be dynamic as well
 
-const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
+const Project = ({ name, content, profile, no, image, GitHub, demo,gitname}) => {
     return (
         <div className="project-section">
             <div className="project">
@@ -25,10 +25,10 @@ const Project = ({ name, content, profile, no, image, GitHub, demo }) => {
                     <Reveal>
                     <div className="project-buttons">
                         <a href={GitHub} className="button github-button" target="_blank" rel="noopener noreferrer">
-                            <img src={githubIcon} alt="GitHub" /> GitHub
+                            <img src={githubIcon} alt="GitHub" /> Github
                         </a>
                         <a href={demo} className="button live-button" target="_blank" rel="noopener noreferrer">
-                            <img src={liveIcon} alt="Live Project" /> Live Project
+                            <img src={liveIcon} alt="Live Project" /> {gitname}
                         </a>
                     </div>
                     </Reveal>
