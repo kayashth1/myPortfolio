@@ -30,7 +30,7 @@ function About() {
                 <li>IIT(ISM) Dhanbad <span style={{background:"#ffffad"}}>(In Progress)</span></li>
                 </Reveal>
                 <Reveal>
-                <li className='h-tag'><b>Email:</b> 22je1101@iitism.ac.in</li>
+                <li className='h-tag'><b>Email:</b> yashkrshri2004outlook.com</li>
                 </Reveal>
               </ul>
             </div>
