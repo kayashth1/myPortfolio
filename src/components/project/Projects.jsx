@@ -4,6 +4,7 @@ import cnfIMG from '../../images/cnf.png'
 import lauIMG from '../../images/laundary.png'
 import newsIMG from '../../images/news.png'
 import imed from '../../images/imedtube.png'
+import noteit from '../../images/noteit.png'
 function Projects() {
 
 
@@ -18,13 +19,23 @@ function Projects() {
           "demo": "https://conference-website-nine.vercel.app/",
           "gitname":"Live Demo"
         },
+        // {
+        //   "name": "iMedTube",
+        //   "content": "a Rsponsive React-based web application that replicates the functionality of YouTube closely, by allowing users to search and watch any video or channel they like, at the same time allowing filtering of videos by category",
+        //   "profile": "React and Rapid API project",
+        //   "no": 2,
+        //   "image": imed,
+        //   "GitHub": "https://github.com/kayashth1/imedtube.git",
+        //   "demo": "",
+        //   "gitname":"Coming Soon"
+        // },
         {
-          "name": "iMedTube",
-          "content": "a Rsponsive React-based web application that replicates the functionality of YouTube closely, by allowing users to search and watch any video or channel they like, at the same time allowing filtering of videos by category",
-          "profile": "React and Rapid API project",
+          "name": "noteIt",
+          "content": "A Responsive CRUD-based web application that allows users to track daily tasks using note cards. It features a pin option to highlight important notes and includes secure login functionality with JWT authentication.",
+          "profile":"MERN Based Project",
           "no": 2,
-          "image": imed,
-          "GitHub": "https://github.com/kayashth1/imedtube.git",
+          "image": noteit,
+          "GitHub": "https://github.com/kayashth1/noteit.git",
           "demo": "",
           "gitname":"Coming Soon"
         },
